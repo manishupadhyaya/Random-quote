@@ -1,0 +1,33 @@
+body{
+    background-image: url(1.jpg);
+    margin:0;
+    padding:0;
+}
+h1{
+    color:black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.app{
+    background-color: rgba(255, 255, 255, 0.89);
+    width: 30vw;
+    font-family:Shadows Into Light, cursive;
+    padding-left: 5%;
+    text-align: center;
+    flex:0;
+    box-shadow: inset 0 0 10px black, 0 0 10px black;
+    
+}
+.button{
+    background-color: rgba(52, 255, 255, 0.103);
+    flex:1;
+    width: 10vw;
+    font-family:Shadows Into Light, cursive;
+    padding-left: 10%;
+    text-align: center;
+}
